@@ -2,7 +2,7 @@
 #define AMDRyzenCPUPowerManagement_h
 
 //Support for macOS 10.13
-#include <Library/LegacyIOService.h>
+#include <IOKit/IOService.h>
 
 #include <math.h>
 #include <IOKit/pci/IOPCIDevice.h>
